@@ -1,0 +1,14 @@
+INSTRUCCIONES DE DESPLIEGUE - PORTAFOLIO LUCIANA VELASQUEZ
+=============================================================
+
+1. RECURSOS VISUALES (img/):
+   - Descomprime este ZIP y pega dentro la carpeta 'img/' original con tus fotos, logo, ícono y CV en PDF.
+
+2. ARCHIVO JAVASCRIPT:
+   - Ubicación: js/main.js (conectado en index.html).
+   - Incluye: efecto máquina de escribir, filtros de galería, modal de vista rápida, contadores animados, Scroll Reveal, Scroll Spy, validación en tiempo real y envío asíncrono a PHP.
+
+3. BASE DE DATOS MYSQL (InfinityFree / XAMPP):
+   - Ejecuta 'base_datos.sql' en phpMyAdmin para crear la tabla 'mensajes_contacto'.
+   - Edita 'guardar_contacto.php' y 'ver_mensajes.php' con tus 4 credenciales MySQL de InfinityFree.
+   - Para ver los mensajes guardados desde el navegador, entra a: tusitio.infinityfreeapp.com/ver_mensajes.php?clave=luciana2026

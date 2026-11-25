@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luciana Velasquez | Portafolio Dev</title>
+    <link rel="icon" href="img/Icon.png" type="image/png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/parrallax.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/galeria.css">
+    <link rel="stylesheet" href="CSS/barra.css">
+    <link rel="stylesheet" href="CSS/contactos.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/testimonios.css">
+</head>
+<body>
+    <!-- SECCIÓN 1: INICIO -->
+    <div id="inicio"></div>
+    <header id="headerPrincipal">
+        <div class="container">
+            <div id="logo">
+                <a href="#inicio"><img src="img/log2.png" alt="Logo Luciana Velasquez" width="70"></a>
+            </div>
+            
+            <!-- Menú hamburguesa -->
+            <label class="fa-solid fa-bars" id="menu" for="check"></label>
+            <input type="checkbox" id="check">
+
+            <nav class="botonera">
+                <ul>
+                    <li><a href="#inicio" class="nav-link activo">INICIO</a></li>
+                    <li><a href="#nosotros" class="nav-link">NOSOTROS</a></li>
+                    <li><a href="#galeria" class="nav-link">GALERÍA</a></li>
+                    <li><a href="#testimonios" class="nav-link">TESTIMONIOS</a></li>
+                    <li><a href="#contactos" class="nav-link">CONTACTOS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner Principal -->
+    <section class="banner">
+        <div class="overlay">
+            <div class="cont-banner">
+                <img src="img/perfiil.jpeg" class="foto-perfil" title="Luciana Velasquez" alt="Foto de perfil de Luciana Velasquez">
+                <h1>Luciana Velasquez</h1>
+                <p class="subtitulo-dev">&lt;<span id="textoMaquina">Desarrolladora de Software</span><span class="cursor-dev">|</span> /&gt;</p>
+                <p>Soy una estudiante de Diseño y Desarrollo de Software apasionada por la tecnología y el aprendizaje constante. Me interesa el mundo de la programación, la electrónica y la aeronáutica, buscando siempre desarrollar nuevas habilidades para crecer profesionalmente.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Barra social lateral -->
+    <div id="redes">
+        <div id="facebook">
+            <a class="fa-brands fa-square-facebook" href="https://www.facebook.com/luciana.vr.9638" target="_blank" aria-label="Facebook"></a>
+        </div>
+        <div id="linkedin">
+            <a class="fa-brands fa-square-linkedin" href="https://www.linkedin.com/in/luciana-vel%C3%A1squez-rivera-6172173b1/" target="_blank" aria-label="LinkedIn"></a>
+        </div>
+        <div id="instagram">
+            <a class="fa-brands fa-square-instagram" href="https://www.instagram.com/coraa.py/" target="_blank" aria-label="Instagram"></a>
+        </div>
+        <div id="whatsapp">
+            <a class="fa-brands fa-square-whatsapp" href="https://wa.me/qr/NJQRV4C3XLXQH1" target="_blank" aria-label="WhatsApp"></a>
+        </div>
+    </div>
+
+    <!-- SECCIÓN 2: NOSOTROS -->
+    <main id="nosotros" class="revelar">
+        <h2>Sobre Mí</h2>
+        <div class="contenido-nosotros">
+            <div class="texto-nosotros">
+                <p>Soy estudiante de Diseño y Desarrollo de Software en TECSUP, con formación técnica en reparación de celulares (GAMOR) y electrónica básica (Instituto PC Leticia). Me apasiona el desarrollo web, el hardware de equipos móviles y la innovación tecnológica. Me caracterizo por ser responsable, creativa, orientada al detalle y comprometida con mi crecimiento personal y profesional.</p>
+                
+                <!-- Contadores dinámicos JS -->
+                <div class="metricas-dev">
+                    <div class="metrica-item">
+                        <span class="contador" data-objetivo="6">0</span>+
+                        <small>Proyectos Web</small>
+                    </div>
+                    <div class="metrica-item">
+                        <span class="contador" data-objetivo="3">0</span>
+                        <small>Especialidades Tech</small>
+                    </div>
+                    <div class="metrica-item">
+                        <span class="contador" data-objetivo="100">0</span>%
+                        <small>Responsive Design</small>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="imagen-nosotros">
+                <img src="img/nosotros.png" alt="Sobre mí" class="img-responsive">
+            </div>
+        </div>
+    </main>
+
+    <!-- Mis Habilidades -->
+    <section id="habilidades-seccion" class="revelar">
+        <h2>MIS HABILIDADES</h2>
+        <div class="contenedor-tarjetas">
+            <div class="tarjeta-habilidad">
+                <img src="img/img   cell.png" alt="Reparación de celulares" class="img-habilidad">
+                <div class="cont-habil">
+                    <h3>Reparación de celulares</h3>
+                </div>
+            </div>
+
+            <div class="tarjeta-habilidad">
+                <img src="img/microsoldadura.png" alt="Microsoldadura" class="img-habilidad">
+                <div class="cont-habil">
+                    <h3>Microsoldadura</h3>
+                </div>
+            </div>
+
+            <div class="tarjeta-habilidad">
+                <img src="img/electronica basica.png" alt="Electrónica" class="img-habilidad">
+                <div class="cont-habil">
+                    <h3>Electrónica y Desarrollo Web</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Efecto Parallax / CV -->
+  <!-- Efecto Parallax / CV -->
+<div class="fondo-parallax">
+    <div class="parrallax revelar">
+        <h2>Mi CV</h2>
+        <p>En este espacio conocerás mi experiencia laboral y mi formación académica en TECSUP y GAMOR.</p>
+        <a class="btn-cv" href="img/cv.luciana vr..pdf" target="_blank">
+            Ver mi Currículum
+        </a>
+    </div>
+</div>
+    <!-- SECCIÓN 3: GALERÍA CON FILTROS Y MODAL JS -->
+    <section class="fondo-galeria revelar" id="galeria">
+        <h2 class="text-galeria">MI PORTAFOLIO</h2>
+        
+        <!-- Botones de filtro JS -->
+        <div class="filtros-galeria">
+            <button type="button" class="btn-filtro activo" data-filtro="todos">Todos (6)</button>
+            <button type="button" class="btn-filtro" data-filtro="responsive">Web &amp; Responsive</button>
+            <button type="button" class="btn-filtro" data-filtro="tematico">Sitios Temáticos</button>
+            <button type="button" class="btn-filtro" data-filtro="formulario">Formularios</button>
+        </div>
+
+        <div class="galeria">
+            <div class="galeria">
+                <aside class="proyecto-item" data-categoria="tematico">
+                    <a href="https://symphonious-faun-145537.netlify.app/" target="_blank" class="enlace-tarjeta" data-titulo="Diseño Web Responsive" data-desc="Maquetación adaptable a celulares, tablets y computadoras con HTML5 y CSS3.">
+                        <img src="img/peru.png" alt="Diseño Web Responsive" class="img-aside">
+                    </a>
+                    <div class="info-proyecto">
+                        <h4>Nuestro Peru</h4>
+                        
+                    </div>
+                </aside>
+
+                <aside class="proyecto-item" data-categoria="responsive">
+                    <a href="https://wonderful-salamander-706672.netlify.app/" target="_blank" class="enlace-tarjeta" data-titulo="Diseño Web Responsive" data-desc="Maquetación adaptable a celulares, tablets y computadoras con HTML5 y CSS3.">
+                        <img src="img/spa.png" alt="Diseño Web Responsive" class="img-aside">
+                    </a>
+                    <div class="info-proyecto">
+                        <h4>SPA </h4>
+                        
+                    </div>
+                </aside>
+
+
+            <aside class="proyecto-item" data-categoria="responsive">
+                <a href="https://responsive.infinityfreeapp.com/" target="_blank" class="enlace-tarjeta" data-titulo="Diseño Web Responsive" data-desc="Maquetación adaptable a celulares, tablets y computadoras con HTML5 y CSS3.">
+                    <img src="img/responsive.png" alt="Diseño Web Responsive" class="img-aside">
+                </a>
+                <div class="info-proyecto">
+                    <h4>Diseño Web Responsive</h4>
+                    
+                </div>
+            </aside>
+
+            <aside class="proyecto-item" data-categoria="responsive">
+                <a href="https://paginasweb.gt.tc/" target="_blank" class="enlace-tarjeta" data-titulo="Creación de Páginas Web" data-desc="Sitio informativo sobre arquitectura y desarrollo web moderno.">
+                    <img src="img/paginasweb.png" alt="Creación de Páginas Web" class="img-aside">
+                </a>
+                <div class="info-proyecto">
+                    <h4>Creación de Páginas Web</h4>
+                    
+                </div>
+            </aside>
+
+            <aside class="proyecto-item" data-categoria="tematico">
+                <a href="https://geografialuciane.page.gd/regional.html" target="_blank" class="enlace-tarjeta" data-titulo="Significado de la Geografía" data-desc="Portal educativo interactivo sobre geografía regional.">
+                    <img src="img/geografia.png" alt="Significado de la Geografía" class="img-aside">
+                </a>
+                <div class="info-proyecto">
+                    <h4>Significado de la Geografía</h4>
+                    
+                </div>
+            </aside>
+
+            <aside class="proyecto-item" data-categoria="tematico">
+                <a href="https://semidiosesluciana.howto.rocks/?i=1" target="_blank" class="enlace-tarjeta" data-titulo="Historia de Grecia" data-desc="Galería temática sobre mitología griega y semidioses.">
+                    <img src="img/perseo1.png" alt="Historia de Grecia" class="img-aside">
+                </a>
+                <div class="info-proyecto">
+                    <h4>Historia de Grecia</h4>
+                   
+                </div>
+            </aside>
+
+            <aside class="proyecto-item" data-categoria="formulario">
+                <a href="https://formularioluciane.free.nf/?i=1" target="_blank" class="enlace-tarjeta" data-titulo="Gran Sorteo Canasta" data-desc="Formulario de registro web con validación de campos.">
+                    <img src="img/formulario.png" alt="Gran Sorteo Canasta" class="img-aside">
+                </a>
+                <div class="info-proyecto">
+                    <h4>Gran Sorteo Canasta</h4>
+                   
+                </div>
+            </aside>
+
+            <aside class="proyecto-item" data-categoria="tematico">
+                <a href="https://deportivoperuluciane.gamer.gd/?i=1" target="_blank" class="enlace-tarjeta" data-titulo="Deportivo Perú" data-desc="Portal deportivo con diseño dinámico y navegación estructurada.">
+                    <img src="img/Deportivoperu.png" alt="Deportivo Perú" class="img-aside">
+                </a>
+                <div class="info-proyecto">
+                    <h4>Deportivo Perú</h4>
+                   
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 4: TESTIMONIOS -->
+    <section class="fondo-testimonios revelar" id="testimonios">
+        <h2 class="text-cards">Testimonios de Docentes y Compañeros</h2>
+        <div class="testimonios">
+            <article class="testimonio">
+                <img src="img/testi1.jpg" alt="Foto de Vanessa Tello" class="img-card">
+                <h3>Vanessa Tello</h3>
+                <span class="rol-testimonio">Compañera de Estudios</span>
+                <p>"Daban mi teléfono por perdido, pero Luciana lo dejó como nuevo. Se nota su experiencia técnica, responsabilidad y el profesionalismo con el que trabaja cada proyecto."</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </article>
+
+            <article class="testimonio">
+                <img src="img/testi2.png" alt="Foto de Docente" class="img-card">
+                <h3>Prof. Carla Mendoza</h3>
+                <span class="rol-testimonio">Docente de Diseño Web - TECSUP</span>
+                <p>"Luciana destaca en clase por su dedicación, curiosidad tecnológica y capacidad para integrar diseño responsivo y código limpio en cada entrega académica."</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </article>
+
+            <article class="testimonio">
+                <img src="img/testi3.png" alt="Foto de Compañero" class="img-card">
+                <h3>Diego Ramírez</h3>
+                <span class="rol-testimonio">Compañero de Desarrollo de Software - TECSUP</span>
+                <p>"Es súper detallista y dedicada con su trabajo en equipo. No solo domina la parte técnica y de hardware, sino que su compromiso marca la diferencia."</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 5: CONTACTOS -->
+    <div class="fondo-contactos">
+        <h2 class="text-contac">Contactos</h2>
+        <div class="contenido-contactos revelar">
+            <div class="imagen-contactos">
+                <img src="img/contacto.png" alt="Contactos" class="img-contactos">
+            </div>
+                
+                <div class="contact">
+                    <div class="formulario">
+                        <h3>Déjanos tu mensaje</h3>
+                        
+                        <form id="formContacto" action="guardar_contacto.php" method="POST">
+                            <div class="grupo-input">
+                                <label for="nombre">Apellidos y Nombres</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required>
+                            </div>
+
+                            <div class="grupo-input">
+                                <label for="correo">Correo electrónico</label>
+                                <input type="email" id="correo" name="correo" placeholder="Ingresa tu correo" required>
+                            </div>
+
+                            <div class="grupo-input">
+                                <label for="celular">Celular</label>
+                                <input type="tel" id="celular" name="celular" placeholder="Ingresa tu celular (9 dígitos)" maxlength="9" required>
+                            </div>
+
+                            <div class="grupo-input">
+                                <label for="mensaje">Mensaje <span id="contadorCaracteres" class="contador-chars">(0/300)</span></label>
+                                <textarea name="mensaje" id="mensaje" cols="30" rows="5" maxlength="300" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                            </div>
+
+                            <input type="submit" id="btnEnviar" value="Enviar">
+                            <p id="estadoFormulario" class="estado-msg"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="fondo-footer">
+        <div class="contenedor-footer">
+            <div class="columna-footer">
+                <p>&copy; <span id="anioActual">2026</span> Derechos Reservados a Velasquez.<br>Creado y Desarrollado por Luciana Velasquez Rivera.</p>
+            </div>
+
+            <div class="columna-footer centro">
+                <h3>DONACIONES</h3>
+                <p>Pide mi Plantilla Web con un Donativo</p>
+                <div class="social">
+                    <img src="img/yape .jpeg" alt="Código QR Yape" class="img-yape">
+                </div>
+            </div>
+
+            <div class="columna-footer">
+                <p>Luciana Velasquez | Estudiante de Diseño y Desarrollo de Software - TECSUP.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de Vista Rápida de Proyecto (JS) -->
+    <div id="modalProyecto" class="modal-overlay">
+        <div class="modal-caja">
+            <button type="button" id="cerrarModal" class="modal-cerrar">&times;</button>
+            <img id="modalImg" src="" alt="Vista previa del proyecto">
+            <h3 id="modalTitulo"></h3>
+            <p id="modalDesc"></p>
+            <a id="modalEnlace" href="#" target="_blank" class="btn-cv">Visitar Sitio Web</a>
+        </div>
+    </div>
+
+    <!-- Botón Volver Arriba (JS) -->
+    <button type="button" id="btnSubir" title="Volver arriba">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    
+    <!-- Scripts JavaScript -->
+    <script src="https://kit.fontawesome.com/eac6ee40bb.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+CREATE TABLE mensajes_contacto (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(120) NOT NULL,
+    correo VARCHAR(120) NOT NULL,
+    celular VARCHAR(15) NOT NULL,
+    mensaje TEXT NOT NULL,
+    fecha_envio TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

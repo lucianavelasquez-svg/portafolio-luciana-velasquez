@@ -1,0 +1,62 @@
+.fondo-testimonios {
+  background: #0f172a;
+  padding: 60px 20px;
+  text-align: center;
+  border-top: 1px solid #1e293b;
+}
+.text-cards {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  color: #f8fafc;
+}
+.testimonios {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.testimonio {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 14px;
+  padding: 25px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.35);
+}
+.testimonio h3 {
+  color: #f8fafc;
+  font-size: 1.25rem;
+}
+.rol-testimonio {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #c084fc;
+  margin: 5px 0 12px 0;
+}
+.testimonio p {
+  text-align: center;
+  font-size: 15px;
+  line-height: 24px;
+  color: #cbd5e1;
+  padding: 0 5px;
+  margin-bottom: 15px;
+}
+.img-card {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #c084fc;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.social-icons a {
+  color: #c084fc;
+  margin: 0 8px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+.social-icons a:hover {
+  color: #38bdf8;
+}
